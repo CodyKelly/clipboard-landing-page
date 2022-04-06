@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CodyKelly/clipboard-landing-page/issues"
   },
-  "homepage": "https://github.com/CodyKelly/clipboard-landing-page#readme"
+  "homepage": "https://github.com/CodyKelly/clipboard-landing-page#readme",
+  "devDependencies": {
+    "modern-css-reset": "^1.4.0"
+  }
 }
