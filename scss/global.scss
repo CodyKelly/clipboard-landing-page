@@ -32,12 +32,14 @@ h1 {
   font-size: map-get($map: $font-sizes, $key: '700');
 }
 
-ul[role='list'] {
-  padding: 0;
-}
-
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   body {
     background-image: url(../images/bg-header-mobile.png);
+    font-size: map-get($map: $font-sizes, $key: '300');
+    padding: map-get($font-sizes, '600');
+  }
+
+  h1 {
+    font-size: map-get($map: $font-sizes, $key: '600');
   }
 }

@@ -16,3 +16,16 @@
     max-width: 30ch;
   }
 }
+
+@media (max-width: 600px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+    .feature-picture {
+      min-width: 100%;
+      margin-inline-start: 0;
+    }
+  }
+}
