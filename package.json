@@ -1,0 +1,24 @@
+{
+  "name": "clipboard-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for a clipboard app",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx sass scss/global.scss css/global.css --watch",
+    "build": "npx sass scss/global.scss css/global.css --style=compressed",
+    "deploy": "npm run build && gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyKelly/clipboard-landing-page.git"
+  },
+  "author": "Cody Kelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodyKelly/clipboard-landing-page/issues"
+  },
+  "homepage": "https://github.com/CodyKelly/clipboard-landing-page#readme",
+  "devDependencies": {
+    "modern-css-reset": "^1.4.0"
+  }
+}
