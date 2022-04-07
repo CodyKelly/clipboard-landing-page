@@ -41,6 +41,18 @@ $fonts: (
   color: map-get($colors, 'primary');
 }
 
+.color-secondary {
+  color: map-get($colors, 'secondary');
+}
+
+.bg-color-primary {
+  background-color: map-get($colors, 'primary');
+}
+
+.bg-color-secondary {
+  background-color: map-get($colors, 'secondary');
+}
+
 .color-text-primary {
   color: map-get($colors, 'dark-gray-blue');
 }

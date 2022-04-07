@@ -1,5 +1,6 @@
-// Our CSS reset
+// Our CSS resets
 @import '../node_modules/modern-css-reset/src/reset.css';
+@import './reset.scss';
 
 // Design tokens
 @import 'design-tokens.scss';

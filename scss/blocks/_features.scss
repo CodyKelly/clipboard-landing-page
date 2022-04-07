@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10rem;
+  text-align: start;
 
   .feature-picture {
     $overhang-amount: 10vw;
@@ -17,11 +18,13 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .features {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 5rem;
+    text-align: center;
 
     .feature-picture {
       min-width: 100%;
