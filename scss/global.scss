@@ -1,18 +1,18 @@
 // Our CSS resets
-@import '../node_modules/modern-css-reset/dist/reset.min.css';
-@import './reset.scss';
+@use '../node_modules/modern-css-reset/dist/reset.min.css';
+@use './reset.scss';
 
 // Design tokens
-@import 'design-tokens.scss';
+@use 'design-tokens.scss';
 
 // Utilities
-@import './utilities/wrapper';
-@import './utilities/flow';
-@import './utilities/flex';
+@use './utilities/wrapper';
+@use './utilities/flow';
+@use './utilities/flex';
 
 // Blocks
-@import './blocks/features';
-@import './blocks/button';
+@use './blocks/features';
+@use './blocks/button';
 
 body {
   overflow-x: hidden;
