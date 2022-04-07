@@ -1,0 +1,70 @@
+// Font sizes
+$base-font-size: 1.5rem;
+
+$font-sizes: (
+  '300': $base-font-size * 0.75,
+  '400': $base-font-size,
+  '500': $base-font-size * 1.33,
+  '600': $base-font-size * 1.66,
+  '700': $base-font-size * 2.33,
+);
+
+$colors: (
+  'primary': hsl(171, 66%, 44%),
+  'secondary': hsl(233, 100%, 69%),
+  'gray-blue': hsl(201, 11%, 66%),
+  'dark-gray-blue': hsl(210, 10%, 33%),
+);
+
+$fonts: (
+  'base': (
+    'Bai Jamjuree',
+    sans-serif,
+  ),
+);
+
+.text {
+  &-center {
+    text-align: center;
+  }
+
+  &-start {
+    text-align: start;
+  }
+
+  &-end {
+    text-align: end;
+  }
+}
+
+.color-primary {
+  color: map-get($colors, 'primary');
+}
+
+.color-text-primary {
+  color: map-get($colors, 'dark-gray-blue');
+}
+
+.color-text-secondary {
+  color: map-get($colors, 'gray-blue');
+}
+
+.font-base {
+  font-family: map-get($fonts, 'base');
+}
+
+.center {
+  margin-inline: auto;
+}
+
+.overhang-start {
+  margin-inline-start: -10%;
+}
+
+.fill-width {
+  max-width: 100%;
+}
+
+.margin-block-1 {
+  margin-block: map-get($font-sizes, '600');
+}
