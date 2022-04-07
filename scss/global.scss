@@ -2,7 +2,7 @@
 @use './reset.scss';
 
 // Design tokens
-@use 'design-tokens.scss';
+@use 'design-tokens.scss' as *;
 
 // Utilities
 @use './utilities/wrapper';
