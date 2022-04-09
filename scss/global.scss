@@ -38,7 +38,7 @@ h1 {
 
 @media (max-width: 600px) {
   body {
-    background-image: url(../images/bg-header-mobile.png);
+    background: url(../images/bg-header-mobile.png) center top/100% no-repeat;
     font-size: map-get($map: $font-sizes, $key: '300');
   }
 
