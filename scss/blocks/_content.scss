@@ -1,6 +1,6 @@
 @use '../design-tokens.scss';
 
 .content {
-  padding-inline: $body-padding;
+  padding-inline: design-tokens.$body-padding;
   min-width: 100vw;
 }

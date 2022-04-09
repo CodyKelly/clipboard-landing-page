@@ -38,6 +38,7 @@
   a {
     text-decoration: none;
     color: map-get($colors, 'dark-gray-blue');
+    transition: color 300ms;
 
     &:hover {
       color: map-get($colors, 'primary');
