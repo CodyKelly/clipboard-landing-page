@@ -19,6 +19,7 @@ body {
   position: relative;
   overflow-x: hidden;
   line-height: 1.5;
+  min-width: 100vw;
   font-size: map-get($map: $font-sizes, $key: '400');
   background: url(../images/bg-header-desktop.png) center top/100% no-repeat;
   padding-block-start: 10rem;
