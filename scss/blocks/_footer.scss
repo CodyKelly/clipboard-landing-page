@@ -1,9 +1,6 @@
 @use '../design-tokens.scss' as *;
 
 .footer {
-  margin-left: -($body-padding);
-  margin-bottom: -($body-padding);
-
   background-color: rgba(0, 0, 0, 0.1);
   min-width: 100vw;
 
