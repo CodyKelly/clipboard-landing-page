@@ -12,11 +12,14 @@
 // Blocks
 @use './blocks/features';
 @use './blocks/button';
+@use './blocks/tools';
+@use './blocks/footer';
 
 body {
+  position: relative;
   overflow-x: hidden;
   line-height: 1.5;
-  padding: map-get($map: $font-sizes, $key: '700');
+  padding-inline: $body-padding;
   font-size: map-get($map: $font-sizes, $key: '400');
   background: url(../images/bg-header-desktop.png) center top/100% no-repeat;
   padding-block-start: 10rem;

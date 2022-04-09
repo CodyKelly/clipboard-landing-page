@@ -1,9 +1,7 @@
 .wrapper {
   max-width: 60ch;
-  margin-inline: auto;
 }
 
 .wrapper-sm {
-  @extend .wrapper;
-  max-width: 30ch;
+  max-width: 20ch;
 }

@@ -1,8 +1,4 @@
-.flow {
-  > * + * {
-    margin-block-start: var(--flow-space, 1em);
-  }
-
+.flow-space {
   &-1 {
     --flow-space: 3rem;
   }
@@ -27,5 +23,37 @@
     &-3 {
       --flow-space: 12rem;
     }
+  }
+}
+
+.flow {
+  > * + * {
+    margin-block-start: var(--flow-space, 1em);
+  }
+}
+
+.flow-inline {
+  > * + * {
+    margin-inline-start: var(--flow-space, 1em);
+  }
+
+  @media (max-width: 600px) {
+    > * + * {
+      margin-inline-start: 0;
+    }
+
+    > * + * {
+      margin-block-start: var(--flow-space, 1em);
+    }
+  }
+}
+
+.flow-recursive {
+  > * + * {
+    margin-block-start: 0;
+  }
+
+  * {
+    margin-block-start: var(--flow-space, 1em);
   }
 }

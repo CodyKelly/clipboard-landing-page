@@ -13,46 +13,51 @@
       rel="stylesheet"
     />
 
+    <script
+      src="https://kit.fontawesome.com/dbfa73c5e4.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Clipboard - Copy to the Cloud</title>
   </head>
   <body
-    class="[ ] [ ] [ flow-3 flow text-center color-text-secondary font-base ]"
+    class="[ ] [ ] [ flow-space-3 flow text-center color-text-secondary font-base ]"
   >
-    <section class="flow flow-1">
+    <section class="flow flow-space-1">
       <img
         src="./images/logo.svg"
         alt="Clipboard logo"
         class="center margin-block-1"
       />
-      <div class="wrapper">
+      <div class="wrapper center">
         <h1>A history of everything you copy</h1>
         <p class="[] [] [ ]">
           Clipboard allows you to track and organize everything you copy.
           Instantly access your clipboard on all your devices.
         </p>
       </div>
-      <button class="button bg-color-primary center">Download for iOS</button>
-      <button class="button bg-color-secondary center">Download for Mac</button>
+      <button class="button bg-color-primary">Download for iOS</button>
+      <button class="button bg-color-secondary">Download for Mac</button>
     </section>
     <div></div>
-    <section class="flow flow-2">
+    <section class="flow flow-space-2">
       <div>
         <h2>Keep track of your snippets</h2>
-        <p class="[] [] [ wrapper ]">
+        <p class="wrapper center">
           Clipboard instantly stores any item you copy in the cloud, meaning you
           can access your snippets immediately on all your devices. Our Mac and
           iOS apps will help you organize everything.
         </p>
       </div>
 
-      <section class="[ ] [ features ] [ ]">
+      <div class="[ features ]">
         <img
           src="./images/image-computer.png"
           alt="A desktop computer running Clipboard"
           class="feature-picture"
         />
 
-        <ul class="[ ] [] [ flow-2 flow ]" role="list">
+        <ul class="flow-space-2 flow" role="list">
           <li>
             <h3>Quick Search</h3>
             <p>Easily search your snippets by content, category, web</p>
@@ -69,13 +74,13 @@
             </p>
           </li>
         </ul>
-      </section>
+      </div>
     </section>
     <div></div>
-    <section class="flow-2 flow">
+    <section class="flow-space-2 flow">
       <div>
         <h2>Access Clipboard anywhere</h2>
-        <p class="[] [ wrapper ] []">
+        <p class="[] [ wrapper center ] []">
           Whether you’re on the go, or at your computer, you can access all your
           Clipboard snippets in a few simple clicks.
         </p>
@@ -87,14 +92,21 @@
         class="center"
       />
     </section>
-    <section>
-      <h2>Supercharge your workflow</h2>
-      <p class="[] [ wrapper ] []">
-        We’ve got the tools to boost your productivity.
-      </p>
-      <ul role="list">
+    <div></div>
+    <section class="flow-space-2">
+      <div>
+        <h2>Supercharge your workflow</h2>
+        <p class="[] [ wrapper center ] []">
+          We’ve got the tools to boost your productivity.
+        </p>
+      </div>
+      <ul class="[ tools ] [ ]" role="list">
         <li>
-          <img src="./images/icon-blacklist.svg" alt="" />
+          <img
+            class="center margin-block-1"
+            src="./images/icon-blacklist.svg"
+            alt=""
+          />
           <h3>Create blacklists</h3>
           <p>
             Ensure sensitive information never makes its way to your clipboard
@@ -102,14 +114,22 @@
           </p>
         </li>
         <li>
-          <img src="./images/icon-text.svg" alt="" />
+          <img
+            class="center margin-block-1"
+            src="./images/icon-text.svg"
+            alt=""
+          />
           <h3>Plain text snippets</h3>
           <p>
             Remove unwanted formatting from copied text for a consistent look.
           </p>
         </li>
         <li>
-          <img src="./images/icon-preview.svg" alt="" />
+          <img
+            class="center margin-block-1"
+            src="./images/icon-preview.svg"
+            alt=""
+          />
           <h3>Sneak preview</h3>
           <p>
             Quick preview of all snippets on your Clipboard for easy access.
@@ -118,12 +138,20 @@
       </ul>
     </section>
     <section>
-      <ul role="list">
-        <li><img src="./images/logo-google.png" alt="Google logo" /></li>
-        <li><img src="./images/logo-ibm.png" alt="IBM logo" /></li>
-        <li><img src="./images/logo-microsoft.png" alt="Microsoft logo" /></li>
-        <li><img src="./images/logo-hp.png" alt="Hewlett Packard logo" /></li>
-        <li>
+      <ul class="flex flex-row flex-justify-evenly flex-wrap" role="list">
+        <li class="margin-2">
+          <img src="./images/logo-google.png" alt="Google logo" />
+        </li>
+        <li class="margin-2">
+          <img src="./images/logo-ibm.png" alt="IBM logo" />
+        </li>
+        <li class="margin-2">
+          <img src="./images/logo-microsoft.png" alt="Microsoft logo" />
+        </li>
+        <li class="margin-2">
+          <img src="./images/logo-hp.png" alt="Hewlett Packard logo" />
+        </li>
+        <li class="margin-2">
           <img
             src="./images/logo-vector-graphics.png"
             alt="Vector Graphics logo"
@@ -131,43 +159,45 @@
         </li>
       </ul>
     </section>
+    <div></div>
+    <section class="wrapper center flow-space-1 flow">
+      <div>
+        <h2>Clipboard for iOS and Mac OS</h2>
+        <p>
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and you’re ready to start adding to your clipboard.
+        </p>
+      </div>
 
-    <section>
-      <h2>Clipboard for iOS and Mac OS</h2>
-      <p>
-        Available for free on the App Store. Download for Mac or iOS, sync with
-        iCloud and you’re ready to start adding to your clipboard.
-      </p>
-      <button>Download for iOS</button><button>Download for Mac</button>
+      <button class="button bg-color-primary center">Download for iOS</button>
+      <button class="button bg-color-secondary center">Download for Mac</button>
     </section>
 
-    <footer>
-      <img src="./images/logo.svg" alt="Clipboard logo" />
-      <ul role="list">
-        <li><a href="">FAQs</a></li>
-        <li><a href="">Contact Us</a></li>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Press Kit</a></li>
-        <li><a href="">Install Guide</a></li>
-        <p class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="#">Your Name Here</a>.
-        </p>
+    <footer
+      class="footer flex flex-row flex-wrap flex-align-center flex-justify-evenly"
+    >
+      <img
+        class="footer-logo margin-1"
+        src="./images/logo.svg"
+        alt="Clipboard logo"
+      />
+      <ul class="links" role="list">
+        <li class="margin-1"><a href="">FAQs</a></li>
+        <li class="margin-1"><a href="">Contact Us</a></li>
+        <li class="margin-1"><a href="">Privacy Policy</a></li>
+        <li class="margin-1"><a href="">Press Kit</a></li>
+        <li class="margin-1"><a href="">Install Guide</a></li>
       </ul>
 
-      <ul role="list">
-        <li>
-          <a href=""><img src="./images/icon-facebook.svg" alt="Facebook" /></a>
+      <ul class="flex flex-row flex-wrap" role="list">
+        <li class="margin-1">
+          <a href=""><i class="fa-brands fa-facebook-square"></i></a>
         </li>
-        <li>
-          <a href=""><img src="./images/icon-twitter.svg" alt="Twitter" /></a>
+        <li class="margin-1">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
         </li>
-        <li>
-          <a href=""
-            ><img src="./images/icon-instagram.svg" alt="Instagram"
-          /></a>
+        <li class="margin-1">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
         </li>
       </ul>
     </footer>

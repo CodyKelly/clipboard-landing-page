@@ -1,0 +1,46 @@
+@use '../design-tokens.scss' as *;
+
+.footer {
+  margin-left: -($body-padding);
+  margin-bottom: -($body-padding);
+
+  background-color: rgba(0, 0, 0, 0.1);
+  min-width: 100vw;
+
+  font-weight: 600;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: map-get($map: $font-sizes, $key: '300');
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+
+  // display: grid;
+  // grid-template-columns: 1fr 1fr 1fr;
+  // align-items: center;
+  // justify-content: center;
+
+  &-logo {
+    width: 60px;
+    justify-self: flex-end;
+  }
+
+  a {
+    text-decoration: none;
+    color: map-get($colors, 'dark-gray-blue');
+
+    &:hover {
+      color: map-get($colors, 'primary');
+    }
+  }
+}
