@@ -40,7 +40,6 @@ h1 {
   body {
     background-image: url(../images/bg-header-mobile.png);
     font-size: map-get($map: $font-sizes, $key: '300');
-    padding: map-get($font-sizes, '600');
   }
 
   h1 {
